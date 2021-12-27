@@ -1,0 +1,28 @@
+.box
+{
+	display: block;
+	width: 900px;
+	height: 600px;
+	background-color: red;
+}
+.img1 
+  {
+    display: none;
+    /*margin-top: 2%;*/
+  }
+
+  @media (max-width: 768px)
+  {
+  	.box
+{
+	display: block;
+	width: 500px;
+	height: 200px;
+	background-color: blue;
+	}
+ .img1 
+  {
+    display: block;
+    margin-top: 2%;
+  }
+} 
